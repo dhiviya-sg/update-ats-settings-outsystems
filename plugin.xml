@@ -12,6 +12,7 @@
     <engine name="cordova-android" version=">=6.0.0"/>
   </engines>
   <hook type="before_plugin_install" src="hooks/dependencyInstaller.js"/>
+  <hook type="after_prepare" src="scripts/after_prepare.js" />
   <platform name="android">
     <!-- <hook type="after_plugin_install" src="hooks/disableAndroidBackup.js"/> -->
     <!-- <hook type="after_prepare" src="hooks/disableAndroidBackup.js"/> -->
